@@ -79,7 +79,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 print("Training set size:", X_train.shape)
 print("Test set size:", X_test.shape)
 
-Step 3: Build a Multimodal Deep Learning Model (Early Fusion)
+# Step 3: Build a Multimodal Deep Learning Model (Early Fusion)
 ##############################
 We concatenate all feature types and pass them through a neural network.
 
