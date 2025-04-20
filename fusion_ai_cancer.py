@@ -65,7 +65,7 @@ scaler = StandardScaler()
 merged_df[numerical_features] = scaler.fit_transform(merged_df[numerical_features])
 
 # One-hot encode categorical features
-encoder = OneHotEncoder(sparse=False)
+encoder = OneHotEncoder(sparse_output=False)
 encoded_cat_features = encoder.fit_transform(merged_df[categorical_features])
 encoded_cat_df = pd.DataFrame(encoded_cat_features, columns=encoder.get_feature_names_out(categorical_features))
 
