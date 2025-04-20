@@ -81,7 +81,7 @@ print("Test set size:", X_test.shape)
 
 # Step 3: Build a Multimodal Deep Learning Model (Early Fusion)
 ##############################
-We concatenate all feature types and pass them through a neural network.
+# We concatenate all feature types and pass them through a neural network.
 
 # Define input shape
 input_shape = X_train.shape[1]
