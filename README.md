@@ -8,3 +8,6 @@ This script introduces missingness.
 
 * transformer_based_late_fusion_for_multimodal_precision_medicine.py
 This script implements a transformer-like approach with late fusion for precision medicine.
+
+* gnn_precision_medicine_demo.py
+This script utilizes a GNN to process multimodal data.
